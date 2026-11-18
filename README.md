@@ -6,8 +6,8 @@ This repository contains the code for fine-tuning the Segment Anything Model (SA
 
 The work is organized in two Jupyter notebooks:
 
-- `01_training.ipynb` — data preparation, patch extraction, dataset construction, model loading and fine-tuning of the SAM mask decoder.
-- `02_inference_validation.ipynb` — loading the fine-tuned model, plotting the training curves, and running inference on validation patches with bounding box prompts.
+- `fine_tuning_sam.ipynb` — data preparation, patch extraction, dataset construction, model loading and fine-tuning of the SAM mask decoder.
+- `prediction.ipynb` — loading the fine-tuned model, plotting the training curves, and running inference on validation patches with bounding box prompts.
 
 ## Model: Segment Anything Model
 
